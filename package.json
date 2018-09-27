@@ -12,7 +12,6 @@
     "build": "tsc",
     "lint": "tslint \"src/**/*.ts\" \"src/**/*.tsx\"",
     "clihelp": "node scripts/cli-help.js",
-    "prepare": "yarn clean && yarn build && yarn clihelp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
